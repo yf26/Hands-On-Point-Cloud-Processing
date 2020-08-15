@@ -1,0 +1,23 @@
+Thank you for participating in our evaluation!
+Loading detections...
+number of files for evaluation: 3769
+  done.
+save /home/yu/0_point_cloud_learn/homework/PointRCNN/output/rcnn/default/eval/epoch_0/val/final_result//plot/car_detection.txt
+car_detection AP: 96.913376 89.531288 88.749321
+PDFCROP 1.38, 2012/11/02 - Copyright (c) 2002-2012 by Heiko Oberdiek.
+==> 1 page written on `car_detection.pdf'.
+save /home/yu/0_point_cloud_learn/homework/PointRCNN/output/rcnn/default/eval/epoch_0/val/final_result//plot/car_orientation.txt
+car_orientation AP: 96.904442 89.406799 88.544968
+PDFCROP 1.38, 2012/11/02 - Copyright (c) 2002-2012 by Heiko Oberdiek.
+==> 1 page written on `car_orientation.pdf'.
+save /home/yu/0_point_cloud_learn/homework/PointRCNN/output/rcnn/default/eval/epoch_0/val/final_result//plot/car_detection_ground.txt
+car_detection_ground AP: 90.219002 87.897018 85.519638
+PDFCROP 1.38, 2012/11/02 - Copyright (c) 2002-2012 by Heiko Oberdiek.
+==> 1 page written on `car_detection_ground.pdf'.
+save /home/yu/0_point_cloud_learn/homework/PointRCNN/output/rcnn/default/eval/epoch_0/val/final_result//plot/car_detection_3d.txt
+car_detection_3d AP: 89.197334 78.849594 77.912834
+PDFCROP 1.38, 2012/11/02 - Copyright (c) 2002-2012 by Heiko Oberdiek.
+==> 1 page written on `car_detection_3d.pdf'.
+Your evaluation results are available at:
+/home/yu/0_point_cloud_learn/homework/PointRCNN/output/rcnn/default/eval/epoch_0/val/final_result/
+

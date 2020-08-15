@@ -1,0 +1,6 @@
+before:
+["Car", "Cyclist", "Pedestrian", "DontCare"]
+[23427, 1289, 3980, 16603]
+
+after:
+[23427, 10312, 11940, 16603]

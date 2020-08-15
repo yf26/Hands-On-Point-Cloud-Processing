@@ -1,0 +1,164 @@
+2020-06-26 17:27:04,415 - Model - INFO - PARAMETER ...
+2020-06-26 17:27:04,415 - Model - INFO - Namespace(batch_size=128, decay_rate=0.0001, epoch=300, gpu='0', learning_rate=0.001, log_dir=None, model='pointnet2_cls_ssg', normal=False, num_point=64, optimizer='Adam')
+2020-06-26 17:27:04,415 - Model - INFO - Load dataset ...
+2020-06-26 17:27:06,527 - Model - INFO - No existing model, starting training from scratch...
+2020-06-26 17:27:06,527 - Model - INFO - Start training...
+2020-06-26 17:27:06,527 - Model - INFO - Epoch 1 (1/300):
+2020-06-26 17:27:23,310 - Model - INFO - Train Instance Accuracy: 0.616850
+2020-06-26 17:27:29,198 - Model - INFO - Test Instance Accuracy: 0.676734, Class Accuracy: 0.604672
+2020-06-26 17:27:29,198 - Model - INFO - Best Instance Accuracy: 0.676734, Class Accuracy: 0.604672
+2020-06-26 17:27:29,198 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:27:29,198 - Model - INFO - Car: 0.874757
+2020-06-26 17:27:29,198 - Model - INFO - Cyclist: 0.248191
+2020-06-26 17:27:29,198 - Model - INFO - Pedestrian: 0.564637
+2020-06-26 17:27:29,198 - Model - INFO - DontCare: 0.731105
+2020-06-26 17:27:29,199 - Model - INFO - Save model...
+2020-06-26 17:27:29,199 - Model - INFO - Saving at log/classification/2020-06-26_17-27/checkpoints/best_model.pth
+2020-06-26 17:27:29,413 - Model - INFO - Epoch 2 (2/300):
+2020-06-26 17:27:43,390 - Model - INFO - Train Instance Accuracy: 0.687717
+2020-06-26 17:27:46,980 - Model - INFO - Test Instance Accuracy: 0.809089, Class Accuracy: 0.779954
+2020-06-26 17:27:46,980 - Model - INFO - Best Instance Accuracy: 0.809089, Class Accuracy: 0.779954
+2020-06-26 17:27:46,980 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:27:46,980 - Model - INFO - Car: 0.914612
+2020-06-26 17:27:46,980 - Model - INFO - Cyclist: 0.618195
+2020-06-26 17:27:46,980 - Model - INFO - Pedestrian: 0.809494
+2020-06-26 17:27:46,980 - Model - INFO - DontCare: 0.777515
+2020-06-26 17:27:46,980 - Model - INFO - Save model...
+2020-06-26 17:27:46,981 - Model - INFO - Saving at log/classification/2020-06-26_17-27/checkpoints/best_model.pth
+2020-06-26 17:27:47,206 - Model - INFO - Epoch 3 (3/300):
+2020-06-26 17:28:01,954 - Model - INFO - Train Instance Accuracy: 0.724015
+2020-06-26 17:28:05,661 - Model - INFO - Test Instance Accuracy: 0.865501, Class Accuracy: 0.854487
+2020-06-26 17:28:05,662 - Model - INFO - Best Instance Accuracy: 0.865501, Class Accuracy: 0.854487
+2020-06-26 17:28:05,662 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:28:05,662 - Model - INFO - Car: 0.935477
+2020-06-26 17:28:05,662 - Model - INFO - Cyclist: 0.844959
+2020-06-26 17:28:05,662 - Model - INFO - Pedestrian: 0.845956
+2020-06-26 17:28:05,662 - Model - INFO - DontCare: 0.791558
+2020-06-26 17:28:05,662 - Model - INFO - Save model...
+2020-06-26 17:28:05,662 - Model - INFO - Saving at log/classification/2020-06-26_17-27/checkpoints/best_model.pth
+2020-06-26 17:28:05,884 - Model - INFO - Epoch 4 (4/300):
+2020-06-26 17:28:20,027 - Model - INFO - Train Instance Accuracy: 0.745861
+2020-06-26 17:28:23,689 - Model - INFO - Test Instance Accuracy: 0.858841, Class Accuracy: 0.856774
+2020-06-26 17:28:23,690 - Model - INFO - Best Instance Accuracy: 0.865501, Class Accuracy: 0.856774
+2020-06-26 17:28:23,690 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:28:23,690 - Model - INFO - Car: 0.862685
+2020-06-26 17:28:23,690 - Model - INFO - Cyclist: 0.803152
+2020-06-26 17:28:23,690 - Model - INFO - Pedestrian: 0.912813
+2020-06-26 17:28:23,690 - Model - INFO - DontCare: 0.848445
+2020-06-26 17:28:23,691 - Model - INFO - Epoch 5 (5/300):
+2020-06-26 17:28:39,083 - Model - INFO - Train Instance Accuracy: 0.761161
+2020-06-26 17:28:42,698 - Model - INFO - Test Instance Accuracy: 0.861085, Class Accuracy: 0.843461
+2020-06-26 17:28:42,699 - Model - INFO - Best Instance Accuracy: 0.865501, Class Accuracy: 0.856774
+2020-06-26 17:28:42,699 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:28:42,699 - Model - INFO - Car: 0.976150
+2020-06-26 17:28:42,699 - Model - INFO - Cyclist: 0.774606
+2020-06-26 17:28:42,699 - Model - INFO - Pedestrian: 0.914808
+2020-06-26 17:28:42,699 - Model - INFO - DontCare: 0.708280
+2020-06-26 17:28:42,700 - Model - INFO - Epoch 6 (6/300):
+2020-06-26 17:28:57,561 - Model - INFO - Train Instance Accuracy: 0.772516
+2020-06-26 17:29:01,128 - Model - INFO - Test Instance Accuracy: 0.865177, Class Accuracy: 0.846888
+2020-06-26 17:29:01,128 - Model - INFO - Best Instance Accuracy: 0.865501, Class Accuracy: 0.856774
+2020-06-26 17:29:01,128 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:29:01,128 - Model - INFO - Car: 0.971417
+2020-06-26 17:29:01,128 - Model - INFO - Cyclist: 0.725889
+2020-06-26 17:29:01,128 - Model - INFO - Pedestrian: 0.959844
+2020-06-26 17:29:01,128 - Model - INFO - DontCare: 0.730403
+2020-06-26 17:29:01,129 - Model - INFO - Epoch 7 (7/300):
+2020-06-26 17:29:15,200 - Model - INFO - Train Instance Accuracy: 0.781747
+2020-06-26 17:29:18,813 - Model - INFO - Test Instance Accuracy: 0.890782, Class Accuracy: 0.879362
+2020-06-26 17:29:18,814 - Model - INFO - Best Instance Accuracy: 0.890782, Class Accuracy: 0.879362
+2020-06-26 17:29:18,814 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:29:18,814 - Model - INFO - Car: 0.951718
+2020-06-26 17:29:18,814 - Model - INFO - Cyclist: 0.816674
+2020-06-26 17:29:18,814 - Model - INFO - Pedestrian: 0.922875
+2020-06-26 17:29:18,814 - Model - INFO - DontCare: 0.826181
+2020-06-26 17:29:18,814 - Model - INFO - Save model...
+2020-06-26 17:29:18,814 - Model - INFO - Saving at log/classification/2020-06-26_17-27/checkpoints/best_model.pth
+2020-06-26 17:29:19,032 - Model - INFO - Epoch 8 (8/300):
+2020-06-26 17:29:33,455 - Model - INFO - Train Instance Accuracy: 0.788902
+2020-06-26 17:29:37,168 - Model - INFO - Test Instance Accuracy: 0.885872, Class Accuracy: 0.874692
+2020-06-26 17:29:37,168 - Model - INFO - Best Instance Accuracy: 0.890782, Class Accuracy: 0.879362
+2020-06-26 17:29:37,168 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:29:37,168 - Model - INFO - Car: 0.971527
+2020-06-26 17:29:37,169 - Model - INFO - Cyclist: 0.844919
+2020-06-26 17:29:37,169 - Model - INFO - Pedestrian: 0.916409
+2020-06-26 17:29:37,169 - Model - INFO - DontCare: 0.765914
+2020-06-26 17:29:37,169 - Model - INFO - Epoch 9 (9/300):
+2020-06-26 17:29:51,429 - Model - INFO - Train Instance Accuracy: 0.795025
+2020-06-26 17:29:55,241 - Model - INFO - Test Instance Accuracy: 0.883645, Class Accuracy: 0.872780
+2020-06-26 17:29:55,242 - Model - INFO - Best Instance Accuracy: 0.890782, Class Accuracy: 0.879362
+2020-06-26 17:29:55,242 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:29:55,242 - Model - INFO - Car: 0.957022
+2020-06-26 17:29:55,242 - Model - INFO - Cyclist: 0.789630
+2020-06-26 17:29:55,242 - Model - INFO - Pedestrian: 0.967926
+2020-06-26 17:29:55,242 - Model - INFO - DontCare: 0.776542
+2020-06-26 17:29:55,243 - Model - INFO - Epoch 10 (10/300):
+2020-06-26 17:30:09,741 - Model - INFO - Train Instance Accuracy: 0.800471
+2020-06-26 17:30:13,325 - Model - INFO - Test Instance Accuracy: 0.873124, Class Accuracy: 0.850041
+2020-06-26 17:30:13,325 - Model - INFO - Best Instance Accuracy: 0.890782, Class Accuracy: 0.879362
+2020-06-26 17:30:13,325 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:30:13,325 - Model - INFO - Car: 0.959295
+2020-06-26 17:30:13,326 - Model - INFO - Cyclist: 0.736145
+2020-06-26 17:30:13,326 - Model - INFO - Pedestrian: 0.840283
+2020-06-26 17:30:13,326 - Model - INFO - DontCare: 0.864442
+2020-06-26 17:30:13,326 - Model - INFO - Epoch 11 (11/300):
+2020-06-26 17:30:27,723 - Model - INFO - Train Instance Accuracy: 0.805095
+2020-06-26 17:30:31,524 - Model - INFO - Test Instance Accuracy: 0.897686, Class Accuracy: 0.894249
+2020-06-26 17:30:31,525 - Model - INFO - Best Instance Accuracy: 0.897686, Class Accuracy: 0.894249
+2020-06-26 17:30:31,525 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:30:31,525 - Model - INFO - Car: 0.964124
+2020-06-26 17:30:31,525 - Model - INFO - Cyclist: 0.881403
+2020-06-26 17:30:31,525 - Model - INFO - Pedestrian: 0.956057
+2020-06-26 17:30:31,526 - Model - INFO - DontCare: 0.775413
+2020-06-26 17:30:31,526 - Model - INFO - Save model...
+2020-06-26 17:30:31,527 - Model - INFO - Saving at log/classification/2020-06-26_17-27/checkpoints/best_model.pth
+2020-06-26 17:30:31,752 - Model - INFO - Epoch 12 (12/300):
+2020-06-26 17:30:45,687 - Model - INFO - Train Instance Accuracy: 0.809197
+2020-06-26 17:30:49,271 - Model - INFO - Test Instance Accuracy: 0.895224, Class Accuracy: 0.877519
+2020-06-26 17:30:49,271 - Model - INFO - Best Instance Accuracy: 0.897686, Class Accuracy: 0.894249
+2020-06-26 17:30:49,271 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:30:49,271 - Model - INFO - Car: 0.962846
+2020-06-26 17:30:49,271 - Model - INFO - Cyclist: 0.787227
+2020-06-26 17:30:49,271 - Model - INFO - Pedestrian: 0.885511
+2020-06-26 17:30:49,271 - Model - INFO - DontCare: 0.874491
+2020-06-26 17:30:49,272 - Model - INFO - Epoch 13 (13/300):
+2020-06-26 17:31:03,861 - Model - INFO - Train Instance Accuracy: 0.812690
+2020-06-26 17:31:07,364 - Model - INFO - Test Instance Accuracy: 0.908605, Class Accuracy: 0.901250
+2020-06-26 17:31:07,364 - Model - INFO - Best Instance Accuracy: 0.908605, Class Accuracy: 0.901250
+2020-06-26 17:31:07,364 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:31:07,364 - Model - INFO - Car: 0.952586
+2020-06-26 17:31:07,365 - Model - INFO - Cyclist: 0.887026
+2020-06-26 17:31:07,365 - Model - INFO - Pedestrian: 0.893925
+2020-06-26 17:31:07,365 - Model - INFO - DontCare: 0.871462
+2020-06-26 17:31:07,365 - Model - INFO - Save model...
+2020-06-26 17:31:07,366 - Model - INFO - Saving at log/classification/2020-06-26_17-27/checkpoints/best_model.pth
+2020-06-26 17:31:07,592 - Model - INFO - Epoch 14 (14/300):
+2020-06-26 17:31:21,440 - Model - INFO - Train Instance Accuracy: 0.815910
+2020-06-26 17:31:24,974 - Model - INFO - Test Instance Accuracy: 0.869184, Class Accuracy: 0.852423
+2020-06-26 17:31:24,974 - Model - INFO - Best Instance Accuracy: 0.908605, Class Accuracy: 0.901250
+2020-06-26 17:31:24,974 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:31:24,974 - Model - INFO - Car: 0.895956
+2020-06-26 17:31:24,974 - Model - INFO - Cyclist: 0.678968
+2020-06-26 17:31:24,974 - Model - INFO - Pedestrian: 0.921497
+2020-06-26 17:31:24,975 - Model - INFO - DontCare: 0.913273
+2020-06-26 17:31:24,975 - Model - INFO - Epoch 15 (15/300):
+2020-06-26 17:31:39,818 - Model - INFO - Train Instance Accuracy: 0.818860
+2020-06-26 17:31:43,377 - Model - INFO - Test Instance Accuracy: 0.898064, Class Accuracy: 0.886030
+2020-06-26 17:31:43,378 - Model - INFO - Best Instance Accuracy: 0.908605, Class Accuracy: 0.901250
+2020-06-26 17:31:43,378 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:31:43,378 - Model - INFO - Car: 0.966113
+2020-06-26 17:31:43,378 - Model - INFO - Cyclist: 0.793791
+2020-06-26 17:31:43,378 - Model - INFO - Pedestrian: 0.966040
+2020-06-26 17:31:43,378 - Model - INFO - DontCare: 0.818177
+2020-06-26 17:31:43,378 - Model - INFO - Epoch 16 (16/300):
+2020-06-26 17:31:58,199 - Model - INFO - Train Instance Accuracy: 0.821637
+2020-06-26 17:32:01,792 - Model - INFO - Test Instance Accuracy: 0.910540, Class Accuracy: 0.902833
+2020-06-26 17:32:01,793 - Model - INFO - Best Instance Accuracy: 0.910540, Class Accuracy: 0.902833
+2020-06-26 17:32:01,793 - Model - INFO - Each Class Accuracy:
+2020-06-26 17:32:01,793 - Model - INFO - Car: 0.977919
+2020-06-26 17:32:01,793 - Model - INFO - Cyclist: 0.934842
+2020-06-26 17:32:01,793 - Model - INFO - Pedestrian: 0.847904
+2020-06-26 17:32:01,794 - Model - INFO - DontCare: 0.850666
+2020-06-26 17:32:01,794 - Model - INFO - Save model...
+2020-06-26 17:32:01,795 - Model - INFO - Saving at log/classification/2020-06-26_17-27/checkpoints/best_model.pth
+2020-06-26 17:32:02,028 - Model - INFO - Epoch 17 (17/300):

@@ -1,0 +1,9 @@
+2020-06-27 15:15:21,920 - Model - INFO - PARAMETER ...
+2020-06-27 15:15:21,920 - Model - INFO - Namespace(batch_size=128, gpu='0', log_dir='2020-06-26_18-04', normal=False, num_point=64, num_votes=5)
+2020-06-27 15:15:21,920 - Model - INFO - Load dataset ...
+2020-06-27 15:15:37,504 - Model - INFO - Test Instance Accuracy: 0.963494, Class Accuracy: 0.961902
+2020-06-27 15:15:37,504 - Model - INFO - Each Class Accuracy:
+2020-06-27 15:15:37,504 - Model - INFO - Car: 0.986868
+2020-06-27 15:15:37,504 - Model - INFO - Cyclist: 0.964844
+2020-06-27 15:15:37,505 - Model - INFO - Pedestrian: 0.964108
+2020-06-27 15:15:37,505 - Model - INFO - DontCare: 0.931787

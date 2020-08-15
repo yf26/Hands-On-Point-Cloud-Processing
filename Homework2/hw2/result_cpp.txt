@@ -1,0 +1,72 @@
+benchmakr.cpp中testKDTree()、testOctree()运行结果：（release）
+
+"/home/yu/3D Point Cloud Processing/homework/Homework2/hw2/cmake-build-release/hw2"
+************** TEST KDTREE*******************
+124669 points read!
+Read file time 9.25596ms
+Build KDTree time 24.7645ms
+------ KNN search --------
+KDTree KNN search time 0.001815ms
+Total time 24.7664ms
+Comparison times = 49
+Distance-Index list:
+Distance = 0, Index = 5
+Distance = 0.589554, Index = 1972
+Distance = 1.22663, Index = 6
+Distance = 1.39844, Index = 1971
+Distance = 1.46411, Index = 1970
+Distance = 1.57562, Index = 3946
+Distance = 1.63461, Index = 8
+Distance = 1.65879, Index = 3945
+------ RNN search --------
+KDTree RNN search time 0.004109ms
+Total time 24.7687ms
+Comparison times = 49
+Distance-Index list:
+Distance = 0, Index = 5
+Distance = 1.22663, Index = 6
+Distance = 1.63461, Index = 8
+Distance = 1.46411, Index = 1970
+Distance = 1.39844, Index = 1971
+Distance = 0.589554, Index = 1972
+Distance = 1.65879, Index = 3945
+Distance = 1.57562, Index = 3946
+------ Destruction of KDTree --------
+Destruction time 0.788582ms
+
+************** TEST OCTREE*******************
+124669 points read!
+Read file time 7.68207ms
+Build Octree time 19.3508ms
+------ KNN search --------
+Octree KNN search time 0.020415ms
+Total time 19.3713ms
+Comparison times = 127
+Distance-Index list:
+Distance = 0, Index = 5
+Distance = 0.589554, Index = 1972
+Distance = 1.22663, Index = 6
+Distance = 1.39844, Index = 1971
+Distance = 1.46411, Index = 1970
+Distance = 1.57562, Index = 3946
+Distance = 1.63461, Index = 8
+Distance = 1.65879, Index = 3945
+------ RNN search --------
+Octree RNN search time 0.008185ms
+Comparison times = 127
+Total time 19.359ms
+Distance-Index list:
+Distance = 1.57562, Index = 3946
+Distance = 1.63461, Index = 8
+Distance = 0, Index = 5
+Distance = 1.22663, Index = 6
+Distance = 1.46411, Index = 1970
+Distance = 1.39844, Index = 1971
+Distance = 0.589554, Index = 1972
+Distance = 1.65879, Index = 3945
+------ Destruction of Octree --------
+Destruction time 2.9551ms
+
+Process finished with exit code 0
+
+

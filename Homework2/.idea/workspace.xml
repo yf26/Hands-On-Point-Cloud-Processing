@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a27aec6-2201-43a6-b964-3a138936ded0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aiLBkY5uIFw6Ijel7FlTsUcJ4a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Steuerung-Reman" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bst/python" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bst/python" />
+      <recent name="$PROJECT_DIR$/bst" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.kdtree (1)">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Homework2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="benchmark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw2/benchmark.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kdtree (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw2/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw2/script/kdtree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kdtree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bst/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bst/script/kdtree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="octree (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw2/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw2/script/octree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="octree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bst/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bst/script/octree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.octree" />
+      <item itemvalue="Python.kdtree" />
+      <item itemvalue="Python.benchmark" />
+      <item itemvalue="Python.kdtree (1)" />
+      <item itemvalue="Python.octree (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.kdtree (1)" />
+        <item itemvalue="Python.octree (1)" />
+        <item itemvalue="Python.benchmark" />
+        <item itemvalue="Python.kdtree" />
+        <item itemvalue="Python.octree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a27aec6-2201-43a6-b964-3a138936ded0" name="Default Changelist" comment="" />
+      <created>1587213333797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587213333797</updated>
+      <workItem from="1587213338607" duration="14313000" />
+      <workItem from="1587233933160" duration="5557000" />
+      <workItem from="1587279985465" duration="5803000" />
+      <workItem from="1587366466903" duration="4391000" />
+      <workItem from="1587407743039" duration="4075000" />
+      <workItem from="1587462094474" duration="3867000" />
+      <workItem from="1587475355259" duration="7051000" />
+      <workItem from="1587502667564" duration="6471000" />
+      <workItem from="1587539539603" duration="9212000" />
+      <workItem from="1587549384758" duration="1050000" />
+      <workItem from="1587626889084" duration="1295000" />
+      <workItem from="1587631487396" duration="10686000" />
+      <workItem from="1587671470170" duration="2585000" />
+      <workItem from="1587794043295" duration="2216000" />
+      <workItem from="1587829041368" duration="7390000" />
+      <workItem from="1587917563175" duration="1993000" />
+      <workItem from="1587972463639" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587794782290">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587794782290" />
+    <state x="2447" y="200" key="FileChooserDialogImpl" timestamp="1587972546444">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2447" y="200" key="FileChooserDialogImpl/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587972546444" />
+    <state x="780" y="297" key="FileChooserDialogImpl/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587651216933" />
+    <state width="1813" height="365" key="GridCell.Tab.-1.bottom" timestamp="1587286527049">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1813" height="365" key="GridCell.Tab.-1.bottom/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286527049" />
+    <state width="1813" height="365" key="GridCell.Tab.-1.center" timestamp="1587286527049">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1813" height="365" key="GridCell.Tab.-1.center/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286527049" />
+    <state width="1813" height="365" key="GridCell.Tab.-1.left" timestamp="1587286527049">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1813" height="365" key="GridCell.Tab.-1.left/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286527049" />
+    <state width="1813" height="365" key="GridCell.Tab.-1.right" timestamp="1587286527049">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1813" height="365" key="GridCell.Tab.-1.right/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286527049" />
+    <state width="1813" height="365" key="GridCell.Tab.0.bottom" timestamp="1587482498495">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.0.bottom/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754614" />
+    <state width="1813" height="365" key="GridCell.Tab.0.bottom/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587482498495" />
+    <state width="1813" height="365" key="GridCell.Tab.0.center" timestamp="1587482498495">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.0.center/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754613" />
+    <state width="1813" height="365" key="GridCell.Tab.0.center/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587482498495" />
+    <state width="1813" height="365" key="GridCell.Tab.0.left" timestamp="1587482498495">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.0.left/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754613" />
+    <state width="1813" height="365" key="GridCell.Tab.0.left/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587482498495" />
+    <state width="1813" height="365" key="GridCell.Tab.0.right" timestamp="1587482498495">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.0.right/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754614" />
+    <state width="1813" height="365" key="GridCell.Tab.0.right/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587482498495" />
+    <state width="1813" height="365" key="GridCell.Tab.1.bottom" timestamp="1587286444454">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.1.bottom/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754614" />
+    <state width="1813" height="365" key="GridCell.Tab.1.bottom/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286444454" />
+    <state width="1813" height="365" key="GridCell.Tab.1.center" timestamp="1587286444454">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.1.center/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754614" />
+    <state width="1813" height="365" key="GridCell.Tab.1.center/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286444454" />
+    <state width="1813" height="365" key="GridCell.Tab.1.left" timestamp="1587286444454">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.1.left/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754614" />
+    <state width="1813" height="365" key="GridCell.Tab.1.left/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286444454" />
+    <state width="1813" height="365" key="GridCell.Tab.1.right" timestamp="1587286444454">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1324" height="242" key="GridCell.Tab.1.right/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587285754614" />
+    <state width="1813" height="365" key="GridCell.Tab.1.right/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587286444454" />
+    <state x="524" y="174" width="937" height="728" key="SettingsEditor" timestamp="1587829918494">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state x="524" y="174" width="937" height="728" key="SettingsEditor/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587829918494" />
+    <state x="2335" y="260" width="727" height="325" key="com.intellij.ide.util.TipDialog" timestamp="1587972525199">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2335" y="260" width="727" height="325" key="com.intellij.ide.util.TipDialog/65.21.1855.1059/1920.0.1366.768@1920.0.1366.768" timestamp="1587972525199" />
+    <state x="629" y="379" key="com.intellij.ide.util.TipDialog/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1587917567858" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bst/python/result_set.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bst/script/kdtree.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Homework2$kdtree.coverage" NAME="kdtree Coverage Results" MODIFIED="1587478644989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bst/python" />
+    <SUITE FILE_PATH="coverage/Homework2$bst.coverage" NAME="bst Coverage Results" MODIFIED="1587286441638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bst" />
+    <SUITE FILE_PATH="coverage/Homework2$result_set__1_.coverage" NAME="result_set (1) Coverage Results" MODIFIED="1587282525341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bst/python" />
+  </component>
+</project>

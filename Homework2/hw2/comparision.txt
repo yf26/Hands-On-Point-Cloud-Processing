@@ -1,0 +1,17 @@
+benchmark.cpp中benchmark() 运行将结果（release）
+124669 points read!
+octree --------------
+Octree: build  2.0495ms, knn  0.0081ms, radius  0.0153ms
+kdtree --------------
+Kdtree: build  2.0701ms, knn  0.0018ms, radius  0.0148ms
+Process finished with exit code 0
+
+benchmark.py运行结果
+octree --------------
+Octree: build 922.821ms, knn 1.166ms, radius 3.234ms, brute 0.762ms
+kdtree --------------
+Kdtree: build 51.248ms, knn 1.415ms, radius 4.360ms, brute 0.796ms
+scipy.spatial.KDTree --------------
+Kdtree: build 46.694ms, knn 0.965ms, radius 3.736ms, brute 0.817ms
+
+Process finished with exit code 0

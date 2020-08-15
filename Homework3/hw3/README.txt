@@ -1,0 +1,10 @@
+1、本次作业按照框架在script/中python实现了GMM和Kmeans聚类;自己用c++实现谱聚类。
+
+2、为了方便谱聚类可视化，main.cpp中处理了data/文件夹里的数据，生成的聚类结果保存在result/文件夹中。script/my_spectral_clustering.py展示了谱聚类的结果。可视化结果也保存在了result/文件夹中。
+
+3、由于Kmeans和GMM算法对noisy_circles、noisy_moons和no_structure数据失效，script/compare_cluster.py中66到75行注释掉了这些数据，减少不必要的运算。去掉注释，实验可发现两个算法在这个3个数据上不会收敛。
+
+4、kmeans和GMM采用了kmeans++的初始化的思想，使得初始点之间尽量距离较远。可视化结果中黑色的点即位初始化时选取的点。
+
+5、对于varied.txt这个数据，在做谱聚类的时候，用knn方法建图无法将右上角的cluster和中间cluster分开，最大的eigengap出现在第二个和第三个特征值间，所以算法只给出了2个cluster。目前还没有找到解决办法，望助教老师提供宝贵建议！
+

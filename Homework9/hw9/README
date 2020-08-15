@@ -1,0 +1,15 @@
+1. 本次作业c++实现了基于harris3D关键点和FPFH33描述子的RANSAC点云初步配准，以及ICPpoint2point和point2plane的refinement。最终配准结果见my_reg_result_final.txt。
+
+
+2. 实验中发现，该配准流程依赖keypoint detection和description结果。如果找到的关键点很“关键”（即是否具有足够的信息来代表整个点云），描述子很准确（source、target的对应关键点在feature space中是否离得足够近），则可以建立并集的correspondences（见registration.cpp中的findRANSACCorrespondencesInter），RANSAC需要较少的iterations就可以给出好的初始化解，最终ICP收敛速度快。
+
+但点云存在噪音，以及source和target不重叠部分会干扰keypoint correspondences的建立，因此最终结果采用交集的correspondences（见findRANSACCorrespondencesUnion函数），这样得到的correspondences更多，代码中通过对feature space distance的排序去除了x% worse correspondences。同时，需要较多的RANSAC iterations，才能给出较好的初始化解。
+
+相比于ISS，基于法向量的harris3D更加能够找到点云中的角点和位于曲面（平面）交线上的点，能过获得更多有效的correspondences。同时在提取keypoint前，可对原始点云进行normal space sampling，将更多的点sample在normal变化较大的地方，也就是可能存在keypoints的地方，也可已增加有效的correspondences的数目。
+
+
+3. 时间有限，代码有很多可以改进的地方。例如：
+ICPpoint2plane最小二乘问题中，会出现A非列满秩的情况，导致A^TA不可逆，最终结果出现nan，因此最终配准是基于point2point的结果; 
+可以将PointClooud<PointXYZ>和PointClooud<Normal>整合到PointClooud<PointNormal>中，更加方便传参和pcl filter的使用;
+将参数写成config文件，main函数读取参数，避免重新编译;
+设置配准成功loss阈值，计算每次调参后计算成功配准率，便于调参，以获得更高的配准率。

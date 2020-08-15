@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="nano_vs_my" targetName="nano_vs_my" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df883edb-a641-436a-9bc2-c5dc7139ec12" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ProjectId" id="1bDkD2k9uxlD0SCUnUYCAOqt7FY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="nano_vs_my" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nano_vs_my" TARGET_NAME="nano_vs_my" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="nano_vs_my" RUN_TARGET_NAME="nano_vs_my">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df883edb-a641-436a-9bc2-c5dc7139ec12" name="Default Changelist" comment="" />
+      <created>1588173928929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588173928929</updated>
+      <workItem from="1588173932971" duration="13147000" />
+      <workItem from="1588195489766" duration="357000" />
+      <workItem from="1588195886897" duration="732000" />
+      <workItem from="1588197552324" duration="416000" />
+      <workItem from="1588232640357" duration="436000" />
+      <workItem from="1588233553548" duration="25000" />
+      <workItem from="1588237024011" duration="1287000" />
+      <workItem from="1588238651572" duration="123000" />
+      <workItem from="1589400189486" duration="847000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588188204530">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1588188204530" />
+    <state x="758" y="297" key="FileChooserDialogImpl" timestamp="1588238773085">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state x="758" y="297" key="FileChooserDialogImpl/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1588238773085" />
+    <state width="1811" height="238" key="GridCell.Tab.0.bottom" timestamp="1589401036611">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1811" height="238" key="GridCell.Tab.0.bottom/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1589401036611" />
+    <state width="1811" height="238" key="GridCell.Tab.0.center" timestamp="1589401036611">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1811" height="238" key="GridCell.Tab.0.center/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1589401036611" />
+    <state width="1811" height="238" key="GridCell.Tab.0.left" timestamp="1589401036610">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1811" height="238" key="GridCell.Tab.0.left/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1589401036610" />
+    <state width="1811" height="238" key="GridCell.Tab.0.right" timestamp="1589401036611">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state width="1811" height="238" key="GridCell.Tab.0.right/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1589401036611" />
+    <state x="524" y="174" key="SettingsEditor" timestamp="1588188242576">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state x="524" y="174" key="SettingsEditor/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1588188242576" />
+    <state x="629" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1588237024024">
+      <screen x="65" y="21" width="1855" height="1059" />
+    </state>
+    <state x="629" y="367" key="com.intellij.ide.util.TipDialog/65.21.1855.1059/1920.0.1366.768@65.21.1855.1059" timestamp="1588237024024" />
+  </component>
+</project>

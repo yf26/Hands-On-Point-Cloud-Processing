@@ -1,0 +1,77 @@
+kdtree.py运行结果：
+/home/yu/anaconda3/envs/pcd_env/bin/python "/home/yu/3D Point Cloud Processing/homework/Homework2/hw2/script/kdtree.py"
+******** KNN search (build with median) ***********
+KDTree build takes 186.9649887084961ms
+KDTree KNN search takes 0.9191036224365234ms
+Comparision times = 49
+Distance-Index list:
+Distance = 0.0, Index = 5
+Distance = 0.5895538926124573, Index = 1972
+Distance = 1.2266329526901245, Index = 6
+Distance = 1.3984394073486328, Index = 1971
+Distance = 1.4641114473342896, Index = 1970
+Distance = 1.575616717338562, Index = 3946
+Distance = 1.6346055269241333, Index = 8
+Distance = 1.6587903499603271, Index = 3945
+
+******** RNN search (build with median) ***********
+Distance-Index list:
+Distance = 1.575616717338562, Index = 3946
+Distance = 1.6587903499603271, Index = 3945
+Distance = 0.5895538926124573, Index = 1972
+Distance = 1.4641114473342896, Index = 1970
+Distance = 1.3984394073486328, Index = 1971
+Distance = 1.6346055269241333, Index = 8
+Distance = 1.2266329526901245, Index = 6
+Distance = 0.0, Index = 5
+Total time 213.69457244873047ms
+Comparison times:  49
+
+******** Open3d ***********
+Open3d build time 16.069650650024414ms
+Open3d search time 0.9157657623291016ms
+Open3d total time 16.985416412353516ms
+IntVector[5, 1972, 6, 1971, 1970, 3946, 8, 3945]
+DoubleVector[0, 0.347574, 1.50463, 1.95563, 2.14362, 2.48257, 2.67194, 2.75159]
+
+Process finished with exit code 0
+
+
+
+octree.py运行结果：
+/home/yu/anaconda3/envs/pcd_env/bin/python "/home/yu/3D Point Cloud Processing/homework/Homework2/hw2/script/octree.py"
+******** KNN search based on Octree ***********
+Octree build takes 11171.587944030762ms
+Octree KNN search takes 1.2810230255126953ms
+Comparision times = 59
+Distance-Index list:
+Distance = 0.0, Index = 5
+Distance = 0.5895538926124573, Index = 1972
+Distance = 1.2266329526901245, Index = 6
+Distance = 1.3984394073486328, Index = 1971
+Distance = 1.4641114473342896, Index = 1970
+Distance = 1.575616717338562, Index = 3946
+Distance = 1.6346055269241333, Index = 8
+Distance = 1.6587903499603271, Index = 3945
+
+******** RNN search based on Octree ***********
+Distance-Index list:
+Distance = 0.0, Index = 5
+Distance = 1.2266329526901245, Index = 6
+Distance = 1.4641114473342896, Index = 1970
+Distance = 1.3984394073486328, Index = 1971
+Distance = 0.5895538926124573, Index = 1972
+Distance = 1.6587903499603271, Index = 3945
+Distance = 1.575616717338562, Index = 3946
+Distance = 1.6346055269241333, Index = 8
+Total time 11110.92233657837ms
+Comparison times:  59
+
+******** Open3d ***********
+Open3d build time 15.133142471313477ms
+Open3d search time 0.8711814880371094ms
+Open3d total time 16.004323959350586ms
+IntVector[5, 1972, 6, 1971, 1970, 3946, 8, 3945]
+DoubleVector[0, 0.347574, 1.50463, 1.95563, 2.14362, 2.48257, 2.67194, 2.75159]
+
+Process finished with exit code 0

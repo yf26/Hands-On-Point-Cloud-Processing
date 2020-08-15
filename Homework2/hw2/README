@@ -1,0 +1,40 @@
+1、本次作业主要以cpp实现和优化为主（hw2文件夹为cmake项目）; python版本的代码没有做优化，用于熟悉理解算法逻辑结构。
+为了比较cpp和python实现的性能差别，benchmark中将random_indices固定选为000000.bin中的前10000个点（可以使用benchmark.py的第41行使用随机采样，但不能保证和cpp中一致）
+
+
+2、本次作业中的cpp实现主要优化思路为：
+使用stl提供的容器（提前分配容器内存、emplace_back代替push_back、避免复制变量、避免重复计算等等）、
+kdtree.hpp中：KDTreeBuildFastMedian基于O(n)的median查找建树、KDTreeBuildFast基于mean值建树。
+并行建树的方法以后有时间了再实现一下。
+
+
+3、以python中的open3d作为正确性基准（见kdtree.py和octree.py的correctness_base()函数），用于测试cpp算法实现的正确性;
+benchmark.cpp中为测试函数为testKDTree()、testOctree()，正确性验证结果见文件result_cpp.txt和result_py.txt。（可修改同时修改参数，对比open3d和我的代码的结果）
+其中：数据为000000.bin中的前100000个点，query point是第6个点，K = 8， leaf_size = 32, min_extent = 0.0001, radius = 1.66 (1.66略大于knn结果中最远的距离，以测试rnn和knn结果一致性）。
+
+部分时间结果如下：
+Build KDTree time 24.7645ms
+KDTree KNN search time 0.001815ms
+Total time 24.7664ms
+KDTree RNN search time 0.004109ms
+Total time 24.7687ms
+
+Build Octree time 19.3508ms
+Octree KNN search time 0.020415ms
+Total time 19.3713ms
+Octree RNN search time 0.008185ms
+Total time 19.359ms
+
+Open3d build time 16.069650650024414ms
+Open3d search time 0.9157657623291016ms
+Open3d total time 16.985416412353516ms
+
+对于1万个点，基于KDTree和Octree的整体速度为25ms和20ms左右，与open3d的16ms左右在同一数量级，并且搜索速度远快于open3d;
+但建树速度均慢于open3d，随着点云规模增大差距会更明显，原因可能在于open3d使用了并行建树方法，时间有限我的代码没有实现并行建树。
+
+
+4、10000次运行结果的cpp python对比见文件comparision.txt。
+搜索次数少的情况下，暴力搜素整体速度较快，无需建树。但是搜索次数多的情况下，如第一次作业的normal estimation，建树查找整体快很多。
+
+
+

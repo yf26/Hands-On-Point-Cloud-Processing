@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ROSSettings">
+    <option name="rosPath" value="/opt/ros/kinetic" />
+    <option name="workspacePath" value="" />
+    <option name="additionalSources" value="$USER_HOME$/catkin_ws/src:/opt/ros/kinetic/share" />
+  </component>
+</project>

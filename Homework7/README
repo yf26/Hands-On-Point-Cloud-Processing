@@ -1,0 +1,3 @@
+1、用cpp实现了ISS特征点检测，测试数据见/hw7/test_data/，测试截图见/result_pics/。
+2、main.cpp中pclISSDetector和myISSDetector函数中分别pcl库API的调用和自己实现的ISSKeypoint类的调用。可以对比runtime。ISSKeypoint.useWeightedCovMat方法可以SVD选择使用的covriance matrix。
+3、本次实现是基于第二次作业的kdtree实现的，点云用vector<vector<float>>储存和处理，而读取和可视化调用了pcl库，并且需要使用pcl::PointCloud类型，因此runtime没有包括点云数据类型的转换。

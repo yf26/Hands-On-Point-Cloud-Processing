@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="hw9" targetName="test" />
+      <config projectName="hw9" targetName="hw9" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1113581-b708-4fac-9a01-7e439d0aac6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YuF_KIT - 第九章作业.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw9.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw9.dir/src/registration.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/registration.dir/src/registration.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/hw9.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/hw9.dir/src/registration.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/registration.dir/src/registration.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/hw9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_reg_result_final.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_reg_result_v0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_reg_result_v1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_reg_result_v2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_reg_result_v3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/PointCloudClustering" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/PointCloudClustering" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework8/PCLKeypoints" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework8/PCLKeypoints" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/KDTreeVectorOfVectorsAdaptor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/registration.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/registration.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/local/include/pcl-1.8/pcl/features/impl/feature.hpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/registration.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/include/pcl-1.8/pcl/point_cloud.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/include/registration.hpp" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1dATUTWa3Es9YFjjGvaZ5WWN2EL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.hw9">
+    <configuration name="hw9" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw9" TARGET_NAME="hw9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw9" RUN_TARGET_NAME="hw9">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="my_reg_result_v2.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw9" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw9" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.hw9" />
+      <item itemvalue="CMake Application.test" />
+    </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1113581-b708-4fac-9a01-7e439d0aac6f" name="Default Changelist" comment="" />
+      <created>1591866913084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591866913084</updated>
+      <workItem from="1591866915973" duration="36417000" />
+      <workItem from="1591909565745" duration="6864000" />
+      <workItem from="1591947449847" duration="1383000" />
+      <workItem from="1591948939730" duration="6891000" />
+      <workItem from="1591966694699" duration="1301000" />
+      <workItem from="1592051596954" duration="18741000" />
+      <workItem from="1592075694444" duration="1308000" />
+      <workItem from="1592077053043" duration="2199000" />
+      <workItem from="1592079391115" duration="1852000" />
+      <workItem from="1592083708751" duration="3210000" />
+      <workItem from="1592117572193" duration="10475000" />
+      <workItem from="1592146871456" duration="18808000" />
+      <workItem from="1592205269995" duration="12280000" />
+      <workItem from="1592230393283" duration="8501000" />
+      <workItem from="1592241675826" duration="14563000" />
+      <workItem from="1592291599945" duration="6434000" />
+      <workItem from="1592301958378" duration="12873000" />
+      <workItem from="1592323922739" duration="5237000" />
+      <workItem from="1592332058082" duration="3885000" />
+      <workItem from="1592337655243" duration="4532000" />
+      <workItem from="1592342899228" duration="3628000" />
+      <workItem from="1592377347082" duration="15170000" />
+      <workItem from="1592396642346" duration="1615000" />
+      <workItem from="1592505770096" duration="203000" />
+      <workItem from="1592506296330" duration="95000" />
+      <workItem from="1592552965307" duration="1811000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/include/registration.hpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

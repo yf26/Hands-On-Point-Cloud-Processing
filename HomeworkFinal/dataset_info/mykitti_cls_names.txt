@@ -1,0 +1,4 @@
+Car
+Cyclist
+Pedestrian
+DontCare

@@ -31,7 +31,7 @@ def pcd_to_range_image(pcd_points, resolution):
     d = np.linalg.norm(pcd_points, axis=1)
     for i in range(N):
         alpha = math.atan2(pcd_points[i, 1], pcd_points[i, 0])  # horizontal
-        beta = math.atan2(pcd_points[i, 2], math.sqrt(
+        beta = math.asin(pcd_points[i, 2], math.sqrt(
             pcd_points[i, 0] * pcd_points[i, 0] + pcd_points[i, 1] * pcd_points[i, 1]))  # vertical
         x = width - 1 - (math.floor(alpha / resolution_rad) + offset_width)
         y = height - 1 - (math.floor(beta / resolution_rad) + offset_height)
